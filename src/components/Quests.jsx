@@ -31,10 +31,10 @@ export default function Quests() {
                     <span className="quest__period">{q.period}</span>
                     <span
                       className={`quest__status ${
-                        q.status === "ACTIVE" ? "is-active" : "is-done"
+                        q.status !== "COMPLETE" ? "is-active" : "is-done"
                       }`}
                     >
-                      {q.status === "ACTIVE" && <i className="pulse" />}
+                      {q.status !== "COMPLETE" && <i className="pulse" />}
                       {q.status}
                     </span>
                   </div>

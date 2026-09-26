@@ -24,7 +24,7 @@ export const profile = {
 export const stats = [
   { label: "CGPA", value: 8.07, max: 10, icon: "✦" },
   { label: "Builds Shipped", value: 4, max: 5, icon: "◆" },
-  { label: "Internships", value: 2, max: 3, icon: "⚑" },
+  { label: "Internships", value: 3, max: 3, icon: "⚑" },
   { label: "Certifications", value: 10, max: 10, icon: "★" },
 ];
 
@@ -107,6 +107,19 @@ export const skillTree = [
 ];
 
 export const quests = [
+  {
+    role: "Student Intern",
+    org: "Nokia",
+    place: "Chennai",
+    period: "Sept 2026 — Present",
+    status: "IN PROGRESS",
+    rank: "S",
+    objectives: [
+      "Working in Production Testing for ONT (Optical Network Terminal) devices, validating hardware and firmware behaviour across test stages before release.",
+      "Executing and monitoring functional test procedures on ONT units, logging failures and supporting root-cause analysis with the test engineering team.",
+    ],
+    loot: ["Production Testing", "ONT", "Optical Networks", "Test Automation"],
+  },
   {
     role: "AI Engineer Intern",
     org: "WhiteBlue Cloud Services",
